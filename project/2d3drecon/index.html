@@ -5,11 +5,11 @@
 
 <head>
 	<meta charset="utf-8">
-<title>Mark Dinn</title>
+<title>SVRnet</title>
 
 
 
-<base href="/author/mark-dinn/">
+<base href="/project/2d3drecon/">
 
 
 
@@ -17,7 +17,7 @@
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-<meta name="description" content="This is meta description">
+<meta name="description" content="2D/3D Registration with Deep Learning">
 
 <meta name="author" content="Themefisher">
 <meta name="generator" content="Hugo 0.108.0">
@@ -62,32 +62,16 @@
 
 
 
-<meta property="og:image" content="images/logo.png" />
-
-
-
-
-<meta name="twitter:image" content="images/logo.png" />
-<meta name="twitter:card"
-  content="summary_large_image">
-
-<meta property="og:image:width" content="2598">
-<meta property="og:image:height" content="1246">
-
-
-<meta property="og:image:type"
-  content="image/png">
-
-<meta name="twitter:title" content="Mark Dinn" />
+<meta name="twitter:title" content="SVRnet" />
 <meta name="twitter:description"
-  content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue." />
+  content="2D/3D Registration with Deep Learning" />
 
 
 
-<meta property="og:title" content="Mark Dinn" />
-<meta property="og:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue." />
+<meta property="og:title" content="SVRnet" />
+<meta property="og:description" content="2D/3D Registration with Deep Learning" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/author/mark-dinn/" /><meta property="article:section" content="author" />
+<meta property="og:url" content="/project/2d3drecon/" /><meta property="article:section" content="project" />
 
 
 
@@ -355,13 +339,13 @@
 	<main>
 		
 
-<section class="page-title bg-2" style="background-image: url('/images/feature-bg.jpg');">
+<section class="page-title bg-2" style="background-image: url('/');">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>Mark Dinn</h1>
-          <p></p>
+          <h1>SVRnet</h1>
+          <p>2D/3D Registration with Deep Learning</p>
         </div>
       </div>
     </div>
@@ -369,43 +353,43 @@
 </section>
 
 
-<section class="section" style="background: #f5f5f5;">
+
+
+<section class="portfolio-single-page section-sm">
   <div class="container">
     <div class="row">
-      <div class="col-md-8 col-md-offset-2">
-        <div class="text-center">
-          <figure>
-            <img style="border-radius: 50%;" class="img-fluid"
-              src="https://www.gravatar.com/avatar/3733c078494c641de31e3b56dfc7ec5e?s=128&pg&d=identicon">
-            <figcaption>
-              <h5 class="font-weight-bold">
-                
-              </h5>
-            </figcaption>
-          </figure>
-          <hr>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida. Nam suscipit vitae purus et laoreet.
-Donec nisi dolor, consequat vel pretium id, auctor in dui. Nam iaculis, neque ac ullamcorper.</p>
-
-          <hr>
-          <ul class="list-inline">
-            <li class="list-inline-item"><a class="share-icon bg-secondary" href="#"><i class="fab fa-facebook"></i></a></li><li class="list-inline-item"><a class="share-icon bg-secondary" href="#"><i class="fab fa-twitter"></i></a></li><li class="list-inline-item"><a class="share-icon bg-secondary" href="#"><i class="fab fa-pinterest"></i></a></li>
+      <div class="col-md-8">
+        
+        <img class="img-responsive w-100" src="/images/portfolio/2d3d-recon/Picture1.png" alt="">
+        
+      </div>
+      <div class="col-md-4">
+        <div class="project-details">
+          <h4>Project Details</h4>
+          <ul>
+            
+            <li><span>Publication :</span> <strong>IEEE Trans. Med. Imaging</strong></li>
+            
+            <li><span>Date Published :</span> <strong>19th February 2018</strong></li>
+            
+            <li><span>DOI :</span> <strong><a href="https://doi.org/10.1109/TMI.2018.2798801">10.1109/TMI.2018.2798801</a></strong></li>
+            
+            <li><span>Code :</span> <strong><a href="https://github.com/farrell236/SVRnet">Github</a></strong></li>
+            
           </ul>
         </div>
       </div>
     </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
     <div class="row">
-      <div class="col-lg-12">
-        <div class="section-title text-center">
-          <h2>Posted by Mark Dinn</h2>
+      <div class="col-md-12">
+        <div class="project-content mt-50">
+          <h2 id="3d-reconstruction-in-canonical-co-ordinate-space-from-arbitrarily-oriented-2d-images">3D Reconstruction in Canonical Co-ordinate Space from Arbitrarily Oriented 2D Images</h2>
+<p>Limited capture range, and the requirement to provide high quality initialization for optimization-based 2D/3D image registration methods, can significantly degrade the performance of 3D image reconstruction and motion compensation pipelines. Challenging clinical imaging scenarios, which contain significant subject motion such as fetal in-utero imaging, complicate the 3D image and volume reconstruction process.</p>
+<p>In this paper we present a learning based image registration method capable of predicting 3D rigid transformations of arbitrarily oriented 2D image slices, with respect to a learned canonical atlas co-ordinate system. Only image slice intensity information is used to perform registration and canonical alignment, no spatial transform initialization is required. To find image transformations we utilize a Convolutional Neural Network (CNN) architecture to learn the regression function capable of mapping 2D image slices to a 3D canonical atlas space.</p>
+<p>We extensively evaluate the effectiveness of our approach quantitatively on simulated Magnetic Resonance Imaging (MRI), fetal brain imagery with synthetic motion and further demonstrate qualitative results on real fetal MRI data where our method is integrated into a full reconstruction and motion compensation pipeline. Our learning based registration achieves an average spatial prediction error of 7 mm on simulated data and produces qualitatively improved reconstructions for heavily moving fetuses with gestational ages of approximately 20 weeks. Our model provides a general and computationally efficient solution to the 2D/3D registration initialization problem and is suitable for real-time scenarios.</p>
+
         </div>
       </div>
-      
     </div>
   </div>
 </section>

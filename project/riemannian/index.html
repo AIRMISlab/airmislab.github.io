@@ -5,11 +5,11 @@
 
 <head>
 	<meta charset="utf-8">
-<title>Mark Dinn</title>
+<title>SVRnet&#43;</title>
 
 
 
-<base href="/author/mark-dinn/">
+<base href="/project/riemannian/">
 
 
 
@@ -17,7 +17,7 @@
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-<meta name="description" content="This is meta description">
+<meta name="description" content="Pose Estimation on a Riemannian Manifold">
 
 <meta name="author" content="Themefisher">
 <meta name="generator" content="Hugo 0.108.0">
@@ -62,32 +62,16 @@
 
 
 
-<meta property="og:image" content="images/logo.png" />
-
-
-
-
-<meta name="twitter:image" content="images/logo.png" />
-<meta name="twitter:card"
-  content="summary_large_image">
-
-<meta property="og:image:width" content="2598">
-<meta property="og:image:height" content="1246">
-
-
-<meta property="og:image:type"
-  content="image/png">
-
-<meta name="twitter:title" content="Mark Dinn" />
+<meta name="twitter:title" content="SVRnet&#43;" />
 <meta name="twitter:description"
-  content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue." />
+  content="Pose Estimation on a Riemannian Manifold" />
 
 
 
-<meta property="og:title" content="Mark Dinn" />
-<meta property="og:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue." />
+<meta property="og:title" content="SVRnet&#43;" />
+<meta property="og:description" content="Pose Estimation on a Riemannian Manifold" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/author/mark-dinn/" /><meta property="article:section" content="author" />
+<meta property="og:url" content="/project/riemannian/" /><meta property="article:section" content="project" />
 
 
 
@@ -355,13 +339,13 @@
 	<main>
 		
 
-<section class="page-title bg-2" style="background-image: url('/images/feature-bg.jpg');">
+<section class="page-title bg-2" style="background-image: url('/');">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>Mark Dinn</h1>
-          <p></p>
+          <h1>SVRnet&#43;</h1>
+          <p>Pose Estimation on a Riemannian Manifold</p>
         </div>
       </div>
     </div>
@@ -369,43 +353,42 @@
 </section>
 
 
-<section class="section" style="background: #f5f5f5;">
+
+
+<section class="portfolio-single-page section-sm">
   <div class="container">
     <div class="row">
-      <div class="col-md-8 col-md-offset-2">
-        <div class="text-center">
-          <figure>
-            <img style="border-radius: 50%;" class="img-fluid"
-              src="https://www.gravatar.com/avatar/3733c078494c641de31e3b56dfc7ec5e?s=128&pg&d=identicon">
-            <figcaption>
-              <h5 class="font-weight-bold">
-                
-              </h5>
-            </figcaption>
-          </figure>
-          <hr>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet vulputate augue. Duis auctor lacus id vehicula gravida. Nam suscipit vitae purus et laoreet.
-Donec nisi dolor, consequat vel pretium id, auctor in dui. Nam iaculis, neque ac ullamcorper.</p>
-
-          <hr>
-          <ul class="list-inline">
-            <li class="list-inline-item"><a class="share-icon bg-secondary" href="#"><i class="fab fa-facebook"></i></a></li><li class="list-inline-item"><a class="share-icon bg-secondary" href="#"><i class="fab fa-twitter"></i></a></li><li class="list-inline-item"><a class="share-icon bg-secondary" href="#"><i class="fab fa-pinterest"></i></a></li>
+      <div class="col-md-8">
+        
+        <img class="img-responsive w-100" src="/images/portfolio/riemannian/network.png" alt="">
+        
+      </div>
+      <div class="col-md-4">
+        <div class="project-details">
+          <h4>Project Details</h4>
+          <ul>
+            
+            <li><span>Publication :</span> <strong>MICCAI 2018</strong></li>
+            
+            <li><span>Date Published :</span> <strong>26th September 2018</strong></li>
+            
+            <li><span>DOI :</span> <strong><a href="https://doi.org/10.1007/978-3-030-00928-1_85">10.1007/978-3-030-00928-1_85</a></strong></li>
+            
+            <li><span>Code :</span> <strong><a href="https://github.com/farrell236/SVRnet">Github</a></strong></li>
+            
           </ul>
         </div>
       </div>
     </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
     <div class="row">
-      <div class="col-lg-12">
-        <div class="section-title text-center">
-          <h2>Posted by Mark Dinn</h2>
+      <div class="col-md-12">
+        <div class="project-content mt-50">
+          <h2 id="computing-cnn-loss-and-gradients-for-pose-estimation-with-riemannian-geometry">Computing CNN Loss and Gradients for Pose Estimation with Riemannian Geometry</h2>
+<p>Pose estimation, i.e. predicting a 3D rigid transformation with respect to a fixed co-ordinate frame in, SE(3), is an omnipresent problem in medical image analysis. Deep learning methods often parameterise poses with a representation that separates rotation and translation. As commonly available frameworks do not provide means to calculate loss on a manifold, regression is usually performed using the L2-norm independently on the rotation&rsquo;s and the translation&rsquo;s parameterisations. This is a metric for linear spaces that does not take into account the Lie group structure of SE(3).</p>
+<p>In this paper, we propose a general Riemannian formulation of the pose estimation problem, and train CNNs directly on SE(3) equipped with a left-invariant Riemannian metric. The loss between the ground truth and predicted pose (elements of the manifold) is calculated as the Riemannian geodesic distance, which couples together the translation and rotation components. Network weights are updated by back-propagating the gradient with respect to the predicted pose on the tangent space of the manifold SE(3). We thoroughly evaluate the effectiveness of our loss function by comparing its performance with popular and most commonly used existing methods, on tasks such as image-based localisation and intensity-based 2D/3D registration. We also show that hyper-parameters, used in our loss function to weight the contribution between rotations and translations, can be intrinsically calculated from the dataset to achieve greater performance margins.</p>
+
         </div>
       </div>
-      
     </div>
   </div>
 </section>

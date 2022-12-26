@@ -7,12 +7,66 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language><atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Ascites Segmentation</title>
+      <link>/project/ascites_seg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/ascites_seg/</guid>
+      <description>Segmentation of Ascites on Abdominal CT Scans for the Assessment of Ovarian Cancer Quantification of the volume of ascites can be an accurate predictor of clinical outcomes to certain pathological setting, e.</description>
+    </item>
+    
+    <item>
+      <title>DR Synthesis</title>
+      <link>/project/dr_synthesis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/dr_synthesis/</guid>
+      <description>Synthesis of Diabetic Retina Fundus Images Using Semantic Label Generation Automatic segmentation of retina lesions have been a long standing and challenging task for learning based models, mostly due to the lack of available and accurate lesion segmentation datasets.</description>
+    </item>
+    
+    <item>
+      <title>Pirasite</title>
+      <link>/project/pirasite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/pirasite/</guid>
+      <description>Cost Effective Intelligent Platform Management Interface for PCs The KVM-over-IP switch is a device that is able to relay keyboard and mouse inputs, and video output between two devices.</description>
+    </item>
+    
+    <item>
+      <title>R.A.T.C.H.E.T.</title>
+      <link>/project/ratchet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/ratchet/</guid>
+      <description>RATCHET: Medical Transformer for Chest X-ray Diagnosis and Reporting Chest radiographs are one of the most common diagnostic modalities in clinical routine.</description>
+    </item>
+    
+    <item>
       <title>RetinaGAN</title>
       <link>/project/retinagan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/project/retinagan/</guid>
       <description>High-Fidelity Diabetic Retina Fundus Image Synthesis from Freestyle Lesion Maps Retina fundus imaging for diagnosing Diabetic Retinopathy (DR) is an efficient and patient-friendly modality, where many high-resolution images can be easily obtained for accurate diagnosis.</description>
+    </item>
+    
+    <item>
+      <title>SVRnet</title>
+      <link>/project/2d3drecon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/2d3drecon/</guid>
+      <description>3D Reconstruction in Canonical Co-ordinate Space from Arbitrarily Oriented 2D Images Limited capture range, and the requirement to provide high quality initialization for optimization-based 2D/3D image registration methods, can significantly degrade the performance of 3D image reconstruction and motion compensation pipelines.</description>
+    </item>
+    
+    <item>
+      <title>SVRnet&#43;</title>
+      <link>/project/riemannian/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/riemannian/</guid>
+      <description>Computing CNN Loss and Gradients for Pose Estimation with Riemannian Geometry Pose estimation, i.</description>
     </item>
     
   </channel>
