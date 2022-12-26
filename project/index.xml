@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on AiRMIS Lab | A.I. Research for Medical Imaging Sciences</title>
+    <link>/project/</link>
+    <description>Recent content in Projects on AiRMIS Lab | A.I. Research for Medical Imaging Sciences</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RetinaGAN</title>
+      <link>/project/retinagan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/retinagan/</guid>
+      <description>High-Fidelity Diabetic Retina Fundus Image Synthesis from Freestyle Lesion Maps Retina fundus imaging for diagnosing Diabetic Retinopathy (DR) is an efficient and patient-friendly modality, where many high-resolution images can be easily obtained for accurate diagnosis.</description>
+    </item>
+    
+  </channel>
+</rss>
